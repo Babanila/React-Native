@@ -188,7 +188,7 @@ export default function Index() {
   );
 
   return (
-    <View>
+    <View style={styles.container}>
       <Separator />
       <Text style={styles.heading}>Calculator</Text>
       <Text style={styles.subHeading}>For Basic Operations</Text>
@@ -238,11 +238,28 @@ export default function Index() {
           ))}
         </View>
       </View>
+      <Separator />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    marginTop: 50,
+    marginBottom: 50,
+    marginHorizontal: 20,
+    backgroundColor: "#fff",
+    borderRadius: 12,
+    padding: 20,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
   heading: {
     fontSize: 30,
     fontWeight: "bold",
@@ -263,7 +280,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
   },
   screen: {
-    backgroundColor: "white",
+    backgroundColor: "#9accff",
     borderColor: "white",
     borderRadius: 8,
     borderWidth: 1,
