@@ -17,9 +17,15 @@ This repository contains multiple React Native apps, each focusing on different 
 - **Status**: ✅ Complete
 
 ### 🎯 **App 2: [QR Code Generator]**
-- **Description**: Brief description of what this app does
+- **Description**: A mobile application that generates unique, scannable QR codes for products. Each QR code embeds structured product information—including name, category, description, and a unique ID—enabling easy tracking, inventory management, or customer engagement. Supports both custom and auto-generated IDs for the same or different products.
 - **Features**: Key features and functionalities
-- **Tech Stack**: Specific technologies used
+   - Create QR codes for any product with customizable fields (name, category, description, ID)
+   - Auto-generate unique product IDs or input custom ones
+   - Preview and validate QR codes in real time
+   - Copy QR data to clipboard for sharing or integration
+   - Save and reuse recent QR codes via a history panel
+   - Clean, intuitive UI with category tags and responsive layout
+- **Tech Stack**: React Native, Expo, react-native-qrcode-svg, expo-clipboard, react-native-uuid for unique ID generation, react-native-svg
 - **Status**: 🚧 In Development
 
 ### 🎯 **App 3: [App Name]**
